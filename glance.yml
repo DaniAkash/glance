@@ -10,14 +10,20 @@ pages:
         widgets:
           - type: calendar
 
+          - type: rss
+            title: News
+            feeds:
+              - url: https://www.reddit.com/r/worldnews.rss
+                title: r/worldnews
+
           - type: twitch-channels
             channels:
+              - nasa
               - theprimeagen
-              - cohhcarnage
-              - christitustech
-              - blurbs
+              - jlengstorf
+              - atrioc
               - asmongold
-              - jembawls
+              - LowLevelTV
 
       - size: full
         widgets:
@@ -62,8 +68,6 @@ pages:
                 title: r/AskReddit
               - url: https://www.reddit.com/r/gaming.rss
                 title: r/gaming
-              - url: https://www.reddit.com/r/worldnews.rss
-                title: r/worldnews
               - url: https://www.reddit.com/r/todayilearned.rss
                 title: r/todayilearned
               - url: https://www.reddit.com/r/aww.rss
