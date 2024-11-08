@@ -1,13 +1,6 @@
-FROM golang:1.22.5-alpine3.20 AS builder
-
-WORKDIR /app
-COPY . /app
-RUN CGO_ENABLED=0 go build .
-
-FROM alpine:3.20
-
-WORKDIR /app
-COPY --from=builder /app/glance .
-
-EXPOSE 8080/tcp
-ENTRYPOINT ["/app/glance"]
+# Based on https://github.com/glanceapp/glance/discussions/185#discussioncomment-10791827
+FROM golang:1.22-alpine AS builder
+COPY . .
+RUN go mod download
+RUN go build -o /glance .
+ENTRYPOINT ["/glance"]
