@@ -10,25 +10,6 @@ pages:
         widgets:
           - type: calendar
 
-          - type: rss
-            title: Reddit
-            limit: 50
-            feeds:
-              - url: https://www.reddit.com/r/funny.rss
-                title: r/funny
-              - url: https://www.reddit.com/r/AskReddit.rss
-                title: r/AskReddit
-              - url: https://www.reddit.com/r/gaming.rss
-                title: r/gaming
-              - url: https://www.reddit.com/r/worldnews.rss
-                title: r/worldnews
-              - url: https://www.reddit.com/r/todayilearned.rss
-                title: r/todayilearned
-              - url: https://www.reddit.com/r/aww.rss
-                title: r/aww
-              - url: https://www.reddit.com/r/r/science.rss
-                title: r/science
-
           - type: twitch-channels
             channels:
               - theprimeagen
@@ -68,6 +49,27 @@ pages:
               - UCFbtcTaMFnOAP0pFO1L8hVw # Kyle Hill
               - UCZ4AMrDcNrfy3X6nsU8-rPg # Economics Explained
             limit: 50
+
+          - type: rss
+            title: Reddit
+            style: detailed-list
+            collapse-after: 25
+            limit: 50
+            feeds:
+              - url: https://www.reddit.com/r/funny.rss
+                title: r/funny
+              - url: https://www.reddit.com/r/AskReddit.rss
+                title: r/AskReddit
+              - url: https://www.reddit.com/r/gaming.rss
+                title: r/gaming
+              - url: https://www.reddit.com/r/worldnews.rss
+                title: r/worldnews
+              - url: https://www.reddit.com/r/todayilearned.rss
+                title: r/todayilearned
+              - url: https://www.reddit.com/r/aww.rss
+                title: r/aww
+              - url: https://www.reddit.com/r/r/science.rss
+                title: r/science
 
       - size: small
         widgets:
