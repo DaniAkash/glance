@@ -32,9 +32,8 @@ pages:
             search-engine: google
             autofocus: true
 
-          - type: hacker-news
-
           - type: videos
+            style: grid-cards
             channels:
               - UC4QZ_LsYcvcq7qOsOhpAX4A # ColdFusion
               - UC3XTzVzaHQEd30rQbuvCtTQ # LastWeekTonight
@@ -55,6 +54,12 @@ pages:
               - UCFbtcTaMFnOAP0pFO1L8hVw # Kyle Hill
               - UCZ4AMrDcNrfy3X6nsU8-rPg # Economics Explained
             limit: 50
+
+          - type: group
+            widgets:
+              - type: lobsters
+                sort-by: hot
+              - type: hacker-news
 
           - type: rss
             title: Reddit
