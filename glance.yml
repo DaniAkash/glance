@@ -17,6 +17,7 @@ pages:
           - type: calendar
 
           - type: twitch-channels
+            collapse-after: 10
             channels:
               - nasa
               - theprimeagen
