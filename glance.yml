@@ -3,6 +3,12 @@ theme:
   primary-color: 170 54 62
   contrast-multiplier: 1.1
 
+branding:
+  logo-url: https://gravatar.com/avatar/8707f3e3522f2ba10aa3cafbcd011ffd?s=200&d=robohash&r=x
+  favicon-url: https://gravatar.com/avatar/8707f3e3522f2ba10aa3cafbcd011ffd?s=200&d=robohash&r=x
+  custom-footer: |
+    <p><a href="https://daniakash.com/" target="_blank">Dani Akash</a>'s Homepage</p>
+
 pages:
   - name: Home
     columns:
