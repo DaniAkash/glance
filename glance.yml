@@ -10,12 +10,6 @@ pages:
         widgets:
           - type: calendar
 
-          - type: rss
-            title: News
-            feeds:
-              - url: https://www.reddit.com/r/worldnews.rss
-                title: r/worldnews
-
           - type: twitch-channels
             channels:
               - nasa
@@ -64,7 +58,7 @@ pages:
           - type: rss
             title: Reddit
             style: detailed-list
-            collapse-after: 25
+            collapse-after: 5
             limit: 50
             feeds:
               - url: https://www.reddit.com/r/funny.rss
@@ -79,6 +73,14 @@ pages:
                 title: r/aww
               - url: https://www.reddit.com/r/science.rss
                 title: r/science
+
+          - type: rss
+            title: News
+            style: detailed-list
+            collapse-after: 5
+            feeds:
+              - url: https://www.reddit.com/r/worldnews.rss
+                title: r/worldnews
 
       - size: small
         widgets:
