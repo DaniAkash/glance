@@ -26,8 +26,14 @@ If you know how to setup an HTTP server and a bit of HTML and CSS you're ready t
 ### `Widget-Title`
 Used to specify the title of the widget. If not provided, the widget's title will be "Extension".
 
+### `Widget-Title-URL`
+Used to specify the URL that will be opened when the widget's title is clicked. If the user has specified a `title-url` in their config, it will take precedence over this header.
+
 ### `Widget-Content-Type`
 Used to specify the content type that will be returned by the extension. If not provided, the content will be shown as plain text.
+
+### `Widget-Content-Frameless`
+When set to `true`, the widget's content will be displayed without the default background or "frame".
 
 ## Content Types
 
